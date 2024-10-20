@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    color:#000000;
+}
+#projects{
+    color:aliceblue;
+}
+.pic{
+    display: flex;
+    align-items:center;
+    padding: 20px;
+    background-color: rgb(3, 15, 26);
+    border-radius: 4px;
+}
+.pic img{
+     max width: 150px;
+     height:auto;
+     margin-left: 300px;
+     margin-right: 180px;
+     border-radius:8px;     
+}
+.text{
+    max-width: 600px;
+}
+
+#aaa{
+        color:aliceblue; 
+}
+#bbb{
+    color:aliceblue;
+}
+#contact{
+    color:aliceblue;
+}
+p{
+    color:white;
+    text-align:center;
+    font-size: 30px;
+}
+h1{
+    font-size:60px;
+    text-align:center;
+    color:grey;
+    
+}
+h4{
+    font-size:25px;
+    text-align:center;
+    color:rgb(165, 125, 51)
+}
+h2{
+    color:blue;
+}
+h3{
+    font-size:30px;
+    color:rgb(206, 158, 27);
+}
+#aaa{
+    justify-content: center;
+}
+
+
+nav{
+    background: #06010a;
+    color: #fff;
+    padding: 40px;
+    justify-content:center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+nav a {
+    color: white;
+    text-decoration: none;
+}
+li{
+    margin: 5px;
+}
+
+section {
+    align-items:center;
+    color:#070218;
+}
+.project {
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
+
